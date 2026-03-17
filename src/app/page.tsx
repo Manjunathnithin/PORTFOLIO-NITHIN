@@ -1,5 +1,5 @@
 import { profile } from '@/data/profile';
-import { Mail, MapPin, Download, Code2, Database, Briefcase, GraduationCap, Linkedin, Phone } from 'lucide-react';
+import { Mail, MapPin, Download, Code2, Database, Briefcase, GraduationCap, LinkedinIcon, Phone } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -45,7 +45,7 @@ export default function Home() {
               title="LinkedIn Profile"
               className="p-2.5 rounded-xl bg-white/5 text-gray-500 hover:bg-[#0077B5] hover:text-white transition-all duration-300"
             >
-              <Linkedin size={16} />
+              <LinkedinIcon size={16} />
             </a>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function Home() {
               <Mail size={40} className="text-gray-400 hover:text-white" />
             </a>
             <a href="https://www.linkedin.com/in/nithin-manjunath-9aab91364" target="_blank" className="p-6 rounded-3xl bg-white/5 hover:bg-[#0077B5] transition-all duration-500 hover:-translate-y-2">
-              <Linkedin size={40} className="text-gray-400 hover:text-white" />
+              <LinkedinIcon size={40} className="text-gray-400 hover:text-white" />
             </a>
           </div>
           <p className="text-[10px] uppercase tracking-[1em] text-gray-700">
